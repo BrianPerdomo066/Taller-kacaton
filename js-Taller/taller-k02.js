@@ -3,12 +3,12 @@
 // y devuelva el o los números faltantes en la secuencia.
 
 
-const n = [1, 6, 15];
+const n = (1, 6, 15);
 
 const x = [];
 
-for (let i = 1;i <= 15; i++) {
-    x.push( i )
+for (let i = 1;i <= n; i++) {
+    x.push( i );
 }
 
 console.log ( x );
